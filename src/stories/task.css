@@ -1,0 +1,28 @@
+.list-item {
+  width: 90%;
+  border: 2px solid black;
+  padding: 1rem;
+  background-color: white;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.list-item-input {
+  width: 100%;
+  border: none;
+}
+
+.group1 {
+  display: flex;
+}
+
+.gr1_checbox {
+  margin-right: 1rem;
+}
+
+.crossed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
